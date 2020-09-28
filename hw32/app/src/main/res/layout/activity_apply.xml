@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".apply"
+    android:background="@drawable/hohohoh">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/button10"
+            android:layout_width="303dp"
+            android:layout_height="107dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:layout_weight="1"
+            android:background="@drawable/border"
+            android:text="professor"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/button11"
+            android:layout_width="303dp"
+            android:layout_height="107dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1"
+            android:background="@drawable/border"
+            android:text="doctor"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/button12"
+            android:layout_width="302dp"
+            android:layout_height="107dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1"
+            android:background="@drawable/border"
+            android:text="engineer"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/button13"
+            android:layout_width="303dp"
+            android:layout_height="107dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1"
+            android:background="@drawable/border"
+            android:text="chemist"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/button14"
+            android:layout_width="301dp"
+            android:layout_height="107dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1"
+            android:background="@drawable/border"
+            android:text="physicists"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/button15"
+            android:layout_width="300dp"
+            android:layout_height="107dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1"
+            android:background="@drawable/border"
+            android:text="business"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="122dp"
+            android:layout_height="68dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/border"
+            android:text="back to main page" />
+
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>
